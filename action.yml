@@ -1,0 +1,5 @@
+name: "Sync folder"
+description: "Check if specified folder is not identical with repo folder then it will sync and raise PR"
+runs:
+  using: node12
+  main: index.js

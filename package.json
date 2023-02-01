@@ -1,0 +1,23 @@
+{
+  "name": "sync-folder",
+  "version": "1.0.0",
+  "description": "Check folder with given repo and if not identical then create PR for it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdiechaHK/sync-folder.git"
+  },
+  "author": "Harikrusha V. Adiecha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdiechaHK/sync-folder/issues"
+  },
+  "homepage": "https://github.com/AdiechaHK/sync-folder#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
