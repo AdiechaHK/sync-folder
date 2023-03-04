@@ -4,7 +4,8 @@ const github = require('@actions/github');
 (
     async () => {
         try {
-            core.info('Yes here in my action')
+            let source = core.getInput('source');
+            core.info('Yes here in my action >> ' + source);
         } catch (error) {
             core.setFailed(error.message);
         }
